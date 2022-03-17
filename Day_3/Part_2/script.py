@@ -27,14 +27,12 @@ for i in range(0, len(oxyGenRating[0])):
             zeros += 1
     if ones >= zeros:
         list_object = 0
-        #for y in range(0, len(oxyGenRating)):
         while list_object < len(oxyGenRating):
             if oxyGenRating[list_object][i] == '0':
                 oxyGenRating.pop(list_object)
                 list_object -= 1
             list_object += 1
     elif zeros > ones:
-        #for y in range(0, len(oxyGenRating)):
         list_object = 0
         while list_object < len(oxyGenRating):
             if oxyGenRating[list_object][i] == '1':
@@ -56,14 +54,12 @@ for i in range(0, len(c02ScrubRating[0])):
             zeros += 1
     if ones < zeros:
         list_object = 0
-        #for y in range(0, len(c02ScrubRating)):
         while list_object < len(c02ScrubRating):
             if c02ScrubRating[list_object][i] == '0':
                 c02ScrubRating.pop(list_object)
                 list_object -= 1
             list_object += 1
     elif zeros <= ones:
-        #for y in range(0, len(c02ScrubRating)):
         list_object = 0
         while list_object < len(c02ScrubRating):
             if c02ScrubRating[list_object][i] == '1':
