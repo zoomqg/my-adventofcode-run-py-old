@@ -51,9 +51,6 @@ for num in range(len(numbers)):
                 # deleting all marked numbers 
                 for delete in range(0, len(checked_numbers)):
                     winning_board = winning_board[winning_board != checked_numbers[delete]]
-                print(winning_board)
-                print(checked_numbers)
-                print(brds)
                 #calculating score
                 print(np.sum(winning_board) * numbers[num])
                 break_point = 1
