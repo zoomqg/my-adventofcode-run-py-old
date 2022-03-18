@@ -27,7 +27,7 @@ boards = [x.split(' ') for x in boards]
 boards = sum(boards, [])
 boards = [x for x in boards if x != '']
 boards = np.array(boards, int).reshape(100, 5, 5)
-
+print(boards)
 break_point = 0
 winners = []
 for num in range(len(numbers)):
