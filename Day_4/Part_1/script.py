@@ -34,6 +34,7 @@ for num in range(len(numbers)):
     if break_point == 1:
         break
     checked_numbers.append(numbers[num])
+    # marking of all numbers
     checker = np.isin(boards, checked_numbers)
     # checking through all boards
     for brds in range(0, len(checker)):
