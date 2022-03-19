@@ -1,3 +1,3 @@
 # my-adventofcode-run-py
-* Language used: Python
+* Language Used: Python
 * Used Libraries: NumPy
