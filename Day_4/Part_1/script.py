@@ -49,7 +49,7 @@ for num in range(len(numbers)):
             print(winning_board)
             print(checked_numbers)
             print(brds)
-            #calculating score
+            #calculating and printing the score
             print(np.sum(winning_board) * numbers[num])
             break_point = 1
             break
