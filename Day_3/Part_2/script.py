@@ -16,6 +16,9 @@ file.close()
 oxyGenRating = data_list.copy();
 c02ScrubRating = data_list.copy();
 
+# i = row
+# y = column
+
 #finding oxyGenRating
 for i in range(0, len(oxyGenRating[0])):
     if len(oxyGenRating) == 1:

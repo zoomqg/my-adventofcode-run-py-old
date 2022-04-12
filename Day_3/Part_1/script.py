@@ -15,6 +15,10 @@ data_list = data.split("\n")
 # closing the file
 file.close()
 
+
+# i = row
+# y = column
+
 for i in range(0, len(data_list[0])):
     for y in range (0, len(data_list)):
         if data_list[y][i] == '1':
