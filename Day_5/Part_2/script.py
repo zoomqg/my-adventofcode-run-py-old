@@ -76,5 +76,4 @@ for i in range(0, len(data_list)):
             
 
 
-#print(diagram)
 print(np.count_nonzero(diagram >= 2))
