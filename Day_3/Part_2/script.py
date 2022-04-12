@@ -26,20 +26,20 @@ for i in range(0, len(oxyGenRating[0])):
         elif oxyGenRating[y][i] == '0':
             zeros += 1
     if ones >= zeros:
-        list_object = 0
-        while list_object < len(oxyGenRating):
-            if oxyGenRating[list_object][i] == '0':
-                oxyGenRating.pop(list_object)
-                list_object -= 1
-            list_object += 1
+        list_object_index = 0
+        while list_object_index < len(oxyGenRating):
+            if oxyGenRating[list_object_index][i] == '0':
+                oxyGenRating.pop(list_object_index)
+                list_object_index -= 1
+            list_object_index += 1
     elif zeros > ones:
-        list_object = 0
-        while list_object < len(oxyGenRating):
-            if oxyGenRating[list_object][i] == '1':
-                oxyGenRating.pop(list_object)
-                list_object -= 1
-            list_object += 1
-    list_object = 0
+        list_object_index = 0
+        while list_object_index < len(oxyGenRating):
+            if oxyGenRating[list_object_index][i] == '1':
+                oxyGenRating.pop(list_object_index)
+                list_object_index -= 1
+            list_object_index += 1
+    list_object_index = 0
     ones = 0
     zeros = 0
 
@@ -53,20 +53,20 @@ for i in range(0, len(c02ScrubRating[0])):
         elif c02ScrubRating[y][i] == '0':
             zeros += 1
     if ones < zeros:
-        list_object = 0
-        while list_object < len(c02ScrubRating):
-            if c02ScrubRating[list_object][i] == '0':
-                c02ScrubRating.pop(list_object)
-                list_object -= 1
-            list_object += 1
+        list_object_index = 0
+        while list_object_index < len(c02ScrubRating):
+            if c02ScrubRating[list_object_index][i] == '0':
+                c02ScrubRating.pop(list_object_index)
+                list_object_index -= 1
+            list_object_index += 1
     elif zeros <= ones:
-        list_object = 0
-        while list_object < len(c02ScrubRating):
-            if c02ScrubRating[list_object][i] == '1':
-                c02ScrubRating.pop(list_object)
-                list_object -= 1
-            list_object += 1
-    list_object = 0
+        list_object_index = 0
+        while list_object_index < len(c02ScrubRating):
+            if c02ScrubRating[list_object_index][i] == '1':
+                c02ScrubRating.pop(list_object_index)
+                list_object_index -= 1
+            list_object_index += 1
+    list_object_index = 0
     ones = 0
     zeros = 0
     
